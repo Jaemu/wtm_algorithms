@@ -1,0 +1,73 @@
+Problem: Prison Break
+
+Description:
+- A prisoner is behind a grid of n horizontal bars and m vertical bars:
+
+E.g. a grid of n = 3 horizontal bars and m = 3 vertical bars (edges are walls, not considered bars)
+    1  2  3
+ .__.__.__.__
+1|__|__|__|__|
+2|__|__|__|__|
+3|__|__|__|__|
+ |__|__|__|__|
+
+The prisoner removes the bars at:
+- h = an array of positions of horizontal bars to be removed
+- v = an array of positions of vertical bars to be removed
+
+Find:
+Given h and v, find the area of the largest opening in the grid created by the prisoner
+
+e.g. n = 3, m = 3, h = [2], v = [2]
+
+    1  2  3
+ .__.____.__
+1|__|____|__|
+2|  |    |  |
+3|__|____|__|
+ |__|____|__|
+
+Input:
+3 - n
+3 - m
+1 - length of h
+2 - element in h
+1 - length of v
+2 - element in v
+
+Output:
+4
+
+Input:
+3 - n
+2 - m
+3 - length of h
+1 - element in h
+2 - element in h
+3 - element in h
+2 - length of v
+1 - element in v
+2 - element in v
+
+n horizontal bars, m vertical bars
+    1  2  
+ .__.__.__.
+1|__|__|__|
+2|__|__|__|
+3|__|__|__|
+ |__|__|__|
+
+ n = 3, m = 2, h = [1,2,3], v = [1,2]
+
+     1  2  
+ .__.__.__.
+1|        |
+2|        |
+3|        |
+ |__.__.__|
+
+ Output:
+ 12
+
+ 
+

@@ -3,7 +3,7 @@
 def cycle_length(arg)
     current = arg
     cycles = 1
-    until current == 1
+    while current != 1
         current = cycle_helper(current)
         cycles = cycles + 1
     end
